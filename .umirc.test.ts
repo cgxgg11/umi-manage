@@ -3,7 +3,7 @@
  * @Author       : BuGua
  * @Date         : 2021-07-30 13:52:57
  * @LastEditors  : BuGua
- * @LastEditTime : 2021-08-17 16:51:21
+ * @LastEditTime : 2021-08-17 16:51:05
  */
 import { defineConfig } from 'umi';
 import { resolve } from 'path';
@@ -35,8 +35,8 @@ export default defineConfig({
     '@primary-color': '#1DA57A',
   },
   define: {
-    'process.env.ENV': 'dev',
-    'process.env.API_ROOT': 'http://DEVxxx.xxx.xx.xx:50000',
+    'process.env.ENV': 'test',
+    'process.env.API_ROOT': 'http://testxxx.xxx.xx.xx:50000',
   },
   proxy: {
     '/api': {
