@@ -1,3 +1,10 @@
+<!--
+ * @Description  : 
+ * @Author       : BuGua
+ * @Date         : 2021-08-17 14:34:59
+ * @LastEditors  : BuGua
+ * @LastEditTime : 2021-08-17 16:56:50
+-->
 # umi manage
 
 ## Getting Started
@@ -21,4 +28,5 @@ $ yarn start
 - dva数据处理
 - hooks使用
 - antd
-- Ts
+- TypeScript
+- 多环境打包
